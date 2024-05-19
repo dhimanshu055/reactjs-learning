@@ -82,7 +82,7 @@ const products = [
     },
   ];
   
-  // Function to filter nested array based on conditions
+  // Function of filter nested array based on conditions
   function filterNestedArray(arr, condition) {
     return arr.filter(condition);
   }
@@ -111,6 +111,4 @@ const products = [
       details: { price: 600, stock: 80 } 
     }
   ]
-
-  
 */  
