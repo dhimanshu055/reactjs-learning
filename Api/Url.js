@@ -1,1 +1,0 @@
-export const baseUrl = 'http://test.maya555.store';
