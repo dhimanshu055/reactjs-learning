@@ -111,4 +111,6 @@ const products = [
       details: { price: 600, stock: 80 } 
     }
   ]
+
+  
 */  
