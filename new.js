@@ -47,3 +47,68 @@ const users = [
     { id: 5, name: 'Tom', age: 19, status: { active: true } }
   ]
 */  
+
+// Example array of products
+const products = [
+    { 
+      id: 1, 
+      name: 'Product A', 
+      category: { name: 'Electronics' }, 
+      details: { price: 300, stock: 100 } 
+    },
+    { 
+      id: 2, 
+      name: 'Product B', 
+      category: { name: 'Electronics' }, 
+      details: { price: 150, stock: 200 } 
+    },
+    { 
+      id: 3, 
+      name: 'Product C', 
+      category: { name: 'Furniture' }, 
+      details: { price: 450, stock: 50 } 
+    },
+    { 
+      id: 4, 
+      name: 'Product D', 
+      category: { name: 'Electronics' }, 
+      details: { price: 600, stock: 80 } 
+    },
+    { 
+      id: 5, 
+      name: 'Product E', 
+      category: { name: 'Furniture' }, 
+      details: { price: 250, stock: 150 } 
+    },
+  ];
+  
+  // Function to filter nested array based on conditions
+  function filterNestedArray(arr, condition) {
+    return arr.filter(condition);
+  }
+  
+  // Condition to filter products in the 'Electronics' category with price greater than 200
+  const condition = (product) => product.category.name === 'Electronics' && product.details.price > 200;
+  
+  // Filtered array
+  const filteredProducts = filterNestedArray(products, condition);
+  
+  // Output the result
+  console.log(filteredProducts);
+  /*
+  Output:
+  [
+    { 
+      id: 1, 
+      name: 'Product A', 
+      category: { name: 'Electronics' }, 
+      details: { price: 300, stock: 100 } 
+    },
+    { 
+      id: 4, 
+      name: 'Product D', 
+      category: { name: 'Electronics' }, 
+      details: { price: 600, stock: 80 } 
+    }
+  ]
+*/  
