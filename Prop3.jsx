@@ -1,5 +1,5 @@
 import React from 'react'
-import Fourth from './Fourth'
+import Fourth from './Prop4'
 import img from './Img/download.jpeg'
 // import vi from '../src/Compo/Video/Video.mp4'
 

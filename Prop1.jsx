@@ -1,5 +1,5 @@
 import React from 'react'
-import Second from './Second' 
+import Second from './Prop2' 
 import img from './Img/download.jpeg'
 import vi from '../src/Compo/Video/Video.mp4'
 const First = () => {

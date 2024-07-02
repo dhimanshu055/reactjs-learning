@@ -1,5 +1,5 @@
 import React from 'react'
-import Eighth from './Eighth'
+import Eighth from './Prop8'
 import img from './Img/download.jpeg'
 
 const Seven = ({e},vi) => {
